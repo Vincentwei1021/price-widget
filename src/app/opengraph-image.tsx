@@ -51,7 +51,7 @@ export default function Image() {
             color: "rgba(255,255,255,0.9)",
           }}
         >
-          pricewidget.toolboxlite.com
+          price.toolboxlite.com
         </div>
       </div>
     ),

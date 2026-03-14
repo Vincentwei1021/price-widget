@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/widget/"],
       },
     ],
-    sitemap: "https://pricewidget.toolboxlite.com/sitemap.xml",
+    sitemap: "https://price.toolboxlite.com/sitemap.xml",
   };
 }

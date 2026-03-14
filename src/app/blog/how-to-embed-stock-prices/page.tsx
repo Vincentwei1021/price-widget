@@ -154,7 +154,7 @@ export default function HowToEmbedStockPrices() {
             </p>
 
             <pre><code>{`<iframe
-  src="https://pricewidget.toolboxlite.com/widget/AAPL?theme=light&size=md"
+  src="https://price.toolboxlite.com/widget/AAPL?theme=light&size=md"
   width="340"
   height="180"
   frameborder="0"

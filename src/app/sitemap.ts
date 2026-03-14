@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://pricewidget.toolboxlite.com";
+const BASE_URL = "https://price.toolboxlite.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

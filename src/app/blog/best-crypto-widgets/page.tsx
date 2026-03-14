@@ -304,7 +304,7 @@ export default function BestCryptoWidgets() {
             </p>
 
             <pre><code>{`<iframe
-  src="https://pricewidget.toolboxlite.com/widget/BTC-USD?theme=dark&size=md"
+  src="https://price.toolboxlite.com/widget/BTC-USD?theme=dark&size=md"
   width="340"
   height="180"
   frameborder="0"

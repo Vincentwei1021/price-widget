@@ -5,7 +5,7 @@ import PriceCard from "./PriceCard";
 import type { PriceData } from "./PriceCard";
 import CopyButton from "./CopyButton";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://pricewidget.toolboxlite.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://price.toolboxlite.com";
 
 const MOCK_DATA: Record<string, PriceData> = {
   AAPL: {
@@ -116,7 +116,7 @@ export default function WidgetGenerator() {
     : "";
 
   return (
-    <section id="generator" className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-24">
+    <section id="generator" className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-24 overflow-hidden">
       <div className="text-center">
         <h2 className="font-heading text-3xl font-bold text-gray-900 dark:text-white">
           Widget Generator

@@ -14,7 +14,7 @@ const jakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const siteUrl = "https://pricewidget.toolboxlite.com";
+const siteUrl = "https://price.toolboxlite.com";
 
 export const metadata: Metadata = {
   title: {

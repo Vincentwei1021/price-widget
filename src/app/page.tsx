@@ -4,7 +4,7 @@ import WidgetGenerator from "@/components/WidgetGenerator";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
-const SITE_URL = "https://pricewidget.toolboxlite.com";
+const SITE_URL = "https://price.toolboxlite.com";
 
 const faqStructuredData = {
   "@context": "https://schema.org",
