@@ -1,3 +1,4 @@
+import FeedbackWidget from "@/components/FeedbackWidget";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
@@ -87,6 +88,7 @@ export default function RootLayout({
         className={`${inter.variable} ${jakarta.variable} antialiased`}
       >
         {children}
+        <FeedbackWidget />
       </body>
     </html>
   );
